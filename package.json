@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/index.js",
     "start:dev": "ts-node-dev src/index.ts",
-    "build": "rm -rf dist & tsc & npm run copy-files",
+    "build": "tsc & npm run copy-files",
     "copy-files": "cp -r src/views dist/views & cp -r public dist"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/express": "4.17.18",
-    "@types/qrcode": "1.5.2"
+    "@types/qrcode": "1.5.2",
+    "ts-node-dev": "^2.0.0"
   }
 }
