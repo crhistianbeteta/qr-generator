@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 /dist
 /node_modules
+=======
+/node_modules
+/dist
+
+package-lock.json
+>>>>>>> eb118d7 (feat: web for generate qr from url)
