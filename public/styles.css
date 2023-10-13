@@ -9,7 +9,7 @@ body {
     margin: 0;
     background: palevioletred !important;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: clamp(16px, 6vw, 48px);
     font-weight: 600;
 }
 
@@ -36,10 +36,10 @@ button {
     background-color: #FFFFFF;
     border: 1px solid #222222;
     border-radius: 8px;
+    font-size: clamp(16px, 6vw, 48px);
     box-sizing: border-box;
-    font-size: 16px;
     font-weight: 600;
-    line-height: 20px;
+
     color: #222222;
     cursor: pointer;
     display: inline-block;

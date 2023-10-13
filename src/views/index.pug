@@ -9,8 +9,7 @@ html
       form(action="/", method="post")
         div(style={display:"grid"})
           label(for="url") URL
-          input(type="text", id="url", name="url", required)
-        br
-        button(type="submit") Enviar
+          input(type="text", id="url", name="url", required,style={"font-size":"20px"})
+        button(type="submit") Generate
       if result
-        img(src=result, alt="Imagen en base64")    
+        img(src=result, alt="Generated qr image")    
